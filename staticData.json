@@ -1,0 +1,52 @@
+{
+  "cells": [
+    {
+      "title": "Intro to React",
+      "image": "https://p40.tr3.n0.cdn.getcloudapp.com/items/NQuDvLDG/logo-react-small.png?v=b05f18111a80ec58831b16c9eed6e30b"
+    },
+    {
+      "title": "Basic Styling in CSS",
+      "image": "https://p40.tr3.n0.cdn.getcloudapp.com/items/NQuDvLDG/logo-react-small.png?v=b05f18111a80ec58831b16c9eed6e30b"
+    },
+    {
+      "title": "Adaptive Layout with CSS Grid",
+      "image": "https://p40.tr3.n0.cdn.getcloudapp.com/items/NQuDvLDG/logo-react-small.png?v=b05f18111a80ec58831b16c9eed6e30b"
+    },
+    {
+      "title": "Interactions & Animations",
+      "image": "https://p40.tr3.n0.cdn.getcloudapp.com/items/NQuDvLDG/logo-react-small.png?v=b05f18111a80ec58831b16c9eed6e30b"
+    },
+    {
+      "title": "SVG Animations",
+      "image": "https://p40.tr3.n0.cdn.getcloudapp.com/items/NQuDvLDG/logo-react-small.png?v=b05f18111a80ec58831b16c9eed6e30b"
+    },
+    {
+      "title": "Components & Props",
+      "image": "https://p40.tr3.n0.cdn.getcloudapp.com/items/NQuDvLDG/logo-react-small.png?v=b05f18111a80ec58831b16c9eed6e30b"
+    },
+    {
+      "title": "States & Events",
+      "image": "https://p40.tr3.n0.cdn.getcloudapp.com/items/NQuDvLDG/logo-react-small.png?v=b05f18111a80ec58831b16c9eed6e30b"
+    },
+    {
+      "title": "Styled Components",
+      "image": "https://p40.tr3.n0.cdn.getcloudapp.com/items/NQuDvLDG/logo-react-small.png?v=b05f18111a80ec58831b16c9eed6e30b"
+    },
+    {
+      "title": "Static Data with JSON",
+      "image": "https://p40.tr3.n0.cdn.getcloudapp.com/items/NQuDvLDG/logo-react-small.png?v=b05f18111a80ec58831b16c9eed6e30b"
+    },
+    {
+      "title": "GraphQL with Contentful",
+      "image": "https://p40.tr3.n0.cdn.getcloudapp.com/items/NQuDvLDG/logo-react-small.png?v=b05f18111a80ec58831b16c9eed6e30b"
+    },
+    {
+      "title": "Publish to Netlify",
+      "image": "https://p40.tr3.n0.cdn.getcloudapp.com/items/NQuDvLDG/logo-react-small.png?v=b05f18111a80ec58831b16c9eed6e30b"
+    },
+    {
+      "title": "Payment with Stripe Check",
+      "image": "https://p40.tr3.n0.cdn.getcloudapp.com/items/NQuDvLDG/logo-react-small.png?v=b05f18111a80ec58831b16c9eed6e30b"
+    }
+  ]
+}

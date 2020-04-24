@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import styled from 'styled-components';
+
 
 import Layout from '../components/layout';
 // import Image from '../components/image';
@@ -7,10 +9,31 @@ import SEO from '../components/seo';
 import Card from '../components/Card';
 import Section from '../components/Section';
 import Wave from '../components/Wave';
+import Cell from '../components/Cell';
+import staticData from '../../staticData.json';
 
+const SectionCaption = styled.p`
+font-weigth: 600;
+font-size: 18px;
+text-transform: uppercase;
+color: #94A4BA;
+text-align: center
+`;
+
+const SectionCellGroup = styled.div`
+  max-width: 800px;
+  margin: 0 auto 100px;
+  display: grid;
+  grid-template-columns:repeat(2, 1fr);
+  grid-column-gap: 20px;
+  padding: 0 20px;
+
+  @media (max-width: 800px){
+    grid-template-columns:repeat(1, 1fr);
+  }
+`;
 
 const IndexPage = () => (
-
   <Layout>
     <SEO title="Home" />
     <div className="Hero">
@@ -67,6 +90,18 @@ const IndexPage = () => (
       title="React for Designers"
       text="Learn how to build a modern site using react and the most efficient libraries to get your site/product online.Get familiar with components, Grid CSS, animations, interractions, dynamic data with contentful and deploying your site with netlify. "
     />
+
+    <SectionCaption>12 Sections - 6 hours</SectionCaption>
+
+    <SectionCellGroup>
+      {staticData.cells.map((cell) => (
+        <Cell
+          key={cell.title}
+          title={cell.title}
+          image={cell.image}
+        />
+      ))}
+    </SectionCellGroup>
   </Layout>
 );
 
