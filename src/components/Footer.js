@@ -58,7 +58,7 @@ const Footer = ({ data, children }) => (
   <FooterGroup>
     <Text>
       Tweet, &quot;Prototype and
-      build apps with with React and Swift. New courses by @Tolu&quot;
+      build apps with with React and Swift. New courses by @ToluOla&quot;
     </Text>
     <Button>Tweet</Button>
     <LinkGroup>
