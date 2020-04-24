@@ -52,7 +52,7 @@ const Layout = ({ children }) => {
       <Footer data={data}>
         Backgrounds made in Cinema 4D,
         iOS app in Swift, site in React.
-        <a href="mailto:tosebikan@gmail.com">Email us</a>
+        <a href="mailto:tosebikan@gmail.com">Email us today</a>
         {' '}
         to ask anything.
       </Footer>

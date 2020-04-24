@@ -91,7 +91,7 @@ const IndexPage = () => (
       text="Learn how to build a modern site using react and the most efficient libraries to get your site/product online.Get familiar with components, Grid CSS, animations, interractions, dynamic data with contentful and deploying your site with netlify. "
     />
 
-    <SectionCaption>12 Sections - 6 hours</SectionCaption>
+    <SectionCaption>12 Sections - 6 hours - 1 day</SectionCaption>
 
     <SectionCellGroup>
       {staticData.cells.map((cell) => (
