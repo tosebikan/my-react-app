@@ -1,12 +1,11 @@
 import { Link } from 'gatsby';
-import PropTypes from 'prop-types';
 import React from 'react';
 import { Button } from 'react-bootstrap';
 import logo from '../images/logo-designcode.svg';
 import './header.css';
 
 
-const Header = ({ siteTitle }) => {
+const Header = () => {
   const [scrolled, setScrolled] = React.useState(false);
 
   React.useEffect(() => {
@@ -38,9 +37,6 @@ const Header = ({ siteTitle }) => {
   );
 };
 
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-};
 
 Header.defaultProps = {
   siteTitle: '',
